@@ -1,0 +1,25 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Anaconda / virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Flask database and user uploads
+webapp/instance/
+*.db
+
+# Secrets
+.env
+secret_key
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db

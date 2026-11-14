@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Flask runtime data
+webapp/instance/
+instance/
+*.db
+secret_key
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Split optional training artifact
+backend/
